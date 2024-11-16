@@ -1,0 +1,217 @@
+/* Centered Brand Name in Navbar */
+.navbar-brand {
+  font-family: "Georgia", serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Styling for the Top Bar */
+.top-bar {
+  background-color: #f08d42;
+  /* Orange background */
+  color: #000;
+  /* Dark text */
+  font-size: 14px;
+}
+
+/* Custom Navbar Styling */
+.navbar {
+  background-color: #f7f0e6;
+  /* Light cream background */
+}
+
+.nav-link {
+  color: #333 !important;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  color: #f08d42 !important;
+  /* Change link color on hover */
+}
+
+body {
+  background-color: #f1f4f8;
+}
+.filter-section {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+.filter-section h5 {
+  font-weight: bold;
+}
+.flight-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  padding: 20px;
+}
+.flight-card .logo {
+  width: 80px;
+  height: auto;
+}
+.flight-card .flight-info {
+  font-weight: bold;
+}
+.flight-card .duration {
+  color: #666;
+}
+.price-section {
+  text-align: right;
+}
+.price-section .price {
+  font-weight: bold;
+  /* font-size: 1.2rem; */
+  color: #333;
+}
+
+/* Custom range slider styling */
+.custom-range {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 8px;
+  background: #d3d3d3; /* Default background color */
+  outline: none;
+  opacity: 0.7;
+  transition: opacity 0.2s;
+  border-radius: 5px;
+}
+
+.custom-range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background-color: blue; /* Thumb color */
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.custom-range::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  background-color: blue; /* Thumb color for Firefox */
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/* Add color to the filled part of the range track */
+.custom-range::-webkit-slider-runnable-track {
+  background: linear-gradient(
+    to right,
+    blue 0%,
+    blue var(--value),
+    #d3d3d3 var(--value),
+    #d3d3d3 100%
+  );
+}
+/* ==================================== */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 1050;
+  overflow: auto;
+}
+
+.modal-content {
+  max-width: 600px;
+  width: 100%;
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  animation: slideIn 0.5s ease-out;
+  position: relative;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+/* ==================================== */
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: none;
+}
+
+.modal-body {
+  padding: 20px 0;
+}
+
+/* ========================================================== */
+
+/* Modal Overlay */
+.modal-overlay2 {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1050;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 10px;
+}
+
+/* Modal Content */
+.modal-content2 {
+  position: relative;
+  max-width: 400px;
+  width: 100%;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  animation: slideout 0.8s ease-out;
+  padding: 20px;
+}
+@keyframes slideout {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+/* Close Button */
+.close-btn2 {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* Modal Body */
+.modal-body2 {
+  padding: 20px;
+  font-size: 16px;
+}
+
+.modal-footer2 {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.div-hover :hover {
+  background-color: #dadada;
+}

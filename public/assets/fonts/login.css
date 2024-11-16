@@ -1,0 +1,75 @@
+  /* Basic Reset */
+    
+
+    /* Left Section */
+    .login-left-section {
+      background: #1a1a1a;
+      color: #ffffff;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .login-left-section h1 {
+      font-size: 2.5rem;
+      font-weight: bold;
+    }
+
+    .login-left-section p {
+      font-size: 1rem;
+      margin-bottom: 30px;
+    }
+
+    .login-testimonial-box {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 400px;
+    }
+
+    .login-testimonial-text {
+      font-size: 1rem;
+    }
+
+    .login-testimonial-avatar {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+    }
+
+    /* Right Section */
+    .login-form-section {
+      background: #ffffff;
+      padding: 20px;
+    }
+
+    .login-form-container {
+      max-width: 400px;
+      width: 100%;
+    }
+
+    .login-h2 {
+      font-size: 1.5rem;
+      font-weight: bold;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .login-btn-outline-dark {
+      width: 48%;
+    }
+
+    .login-form-check-label a {
+      color: #ff6600;
+    }
+
+    .login-btn-orange {
+      background-color: #ff6600;
+      border-color: #ff6600;
+    }
+
+    /* Responsive adjustments */
+    @media (max-width: 991px) {
+      .login-left-section {
+        display: none;
+      }
+    }
